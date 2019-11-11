@@ -7,7 +7,8 @@ int main(){
     ptrAO = &a[0];
     printf("\n\n intrododuce ");
     for(int i=0;i<5;i++){
-       printf("intrododuce el valor de %d",i); scanf("%d",&a[i]);
+       printf("intrododuce el valor de %d",i);
+       scanf("%d",&a[i]);
     }
     for(int i=0;i<5;i++){
         printf("\n %d",a[i]);
@@ -19,7 +20,8 @@ int main(){
     printf("\n\n  el valor de b[2] es: %d\n ",(*ptrBO+2));
     printf("\n\n  el valor de B[0] es: %d\n ",*ptrBO+1);
     for(int i=0;i<5;i++){
-        printf("intrododuce el valor de B[%d]",i); scanf("%d",&*ptrBO+1);
+        printf("intrododuce el valor de B[%d]",i);
+        scanf("%d",&*ptrBO+1);
     }
     int c[5];
     for(int i=0;i<5;i++){
